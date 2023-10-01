@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #000000;
+	margin: 0;
+}
+header{
+	width: 100%;height: 60px;background-color:#F9F5EB ;box-shadow: 5px 5px 5px #952323;position: fixed;left: 0;top: 0;z-index: 100
+}
+.logo{
+	padding-top: 10px
+}
+.menu{
+	padding-top: 17px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color:#952323;
+	color:#F2E8C6
+}
+.menu ul li a.active{
+	background-color:#952323;
+	color:#F2E8C6
+}
+#home{
+	width: 100%;min-height: 800px;padding-top: 100px;
+	background-color: #F9F5EB;
+	background-repeat: no-repeat;
+	background-position: top left, right bottom;
+}
+#home .btn-primary{
+	background-color:#952323;
+	color:#F2E8C6;
+}
+
+#about{
+	width: 100%;min-height: 1000px;padding-top: 100px;background-color:#F9F5EB;
+}
+#about .year{
+	width:100%; color: black;padding: 10px
+}
+#about .so{
+	height: 130px; font-size:130px; font-weight:bold; color: #952323;
+}
+#about .year h5{
+	margin-top: 0; letter-spacing:24px; padding-left:10px; color: #952323;
+}
+#about i{
+	color: #0C356A;
+}
+#about .btn-secondary{
+	background-color:#952323;
+	color:#F2E8C6;
+}
+#skill{
+	width: 100%;min-height: 800px;padding-top: 100px;background-color: #F9F5EB;
+}
+
+.progress{
+	width:100%; height: 10px; line-height: 10px; background-color:#D8D8D8; border-radius: 20px;
+}
+.bar{
+	height: 10px; border-radius: 10px; color: black;
+}
+.tablinks{
+	background-color: #952323;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #952323;
+  border-radius: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  width:50%;
+  background-color: #952323;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #952323;
+  color:#F2E8C6;
+  border-radius: 10px;
+  
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #CFCFCF;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #952323;
+  border-top: none;
+}
+#defaultOpen{
+	background-color: #952323;
+	border: 1px solid #952323;
+}
+
+#services{
+	width: 100%;min-height: 800px;padding-top: 100px; background: #F9F5EB;
+}
+#services .service{
+	width: 100%;min-height: 150px;display: flex
+}
+#services .service-icon{
+	height: 150px;width: 180px;border: 1px solid #952323;display: flex;justify-content: center;align-items: center;
+}
+#services .service-icon i{
+	font-size: 40px;color:#952323;transition: all 0.8s
+}
+#services .service:hover .service-icon i{
+	font-size: 65px
+}
+#services .service-icon h1{
+	transition: all 0.6s; width: 70px
+}
+#services .service:hover .service-icon h1{
+	width: 70px
+}
+#services .service-text{
+	width: 100%;height: 150px;padding: 15px;transition:  all 0.8s
+}
+#services .service:hover .service-text{
+	background-color:#952323 ;color: #F2E8C6;
+}
+
+#project{
+	width: 100%;min-height: 1000px;padding-top: 100px;background: #F9F5EB;
+	}
+/* Style the tab */
+#project .tab2 {
+  overflow: hidden;
+}
+/* Style the buttons inside the tab */
+#project .tab2 button {
+background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 17px;
+	border-bottom: 2px solid #952323;margin-left: 5px;color:#952323;
+}
+/* Change background color of buttons on hover */
+#project .tab2 button:hover {
+ color: #952323;border-bottom: 2px solid #952323
+}
+
+/* Create an active/current tablink class */
+#project .tab2 button.active {
+color: #952323;border-bottom: 2px solid #952323
+}
+
+/* Style the tab content */
+#project .tabcontent2 {
+  display: none;
+  padding: 6px 12px;
+ 
+  border-top: none;
+}
+
+/*======phan nav gallery*/
+
+
+
+#gallery .owl-nav { position:absolute; left:0px; top:35%; width:100%; }
+
+#gallery .owl-nav [class*='owl-'] {
+
+	font-size:40px; color: black;width: 40px;
+
+}
+
+
+
+#gallery .owl-nav .owl-next{ position:absolute; right:-4%;}
+
+#gallery .owl-nav .owl-prev{ position:absolute; left:-4%;}
+
+#gallery .owl-nav [class*='owl-']:hover {
+
+      background:none;
+
+      color: #FF0045;
+
+      text-decoration: none; }
+
+
+
+
+
+
+#testimonial{
+	width: 100%;min-height: 800px;padding-top: 100px;background-color: #F9F5EB ;
+}
+#testimonial .client{
+    text-align: center; display: flex; flex-direction:column; justify-content: center; align-items: center; padding: 10px 40px
+}
+#testimonial .client img{
+	width:100px; height:auto; border-radius: 50%;
+}
+.Vien{
+	border:1px solid #952323; padding:5px;
+}
+
+#cam-nhan .owl-nav { position:absolute; left:0px; top:50%; width:100%; }
+
+#cam-nhan .owl-nav [class*='owl-'] {
+
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+
+}
+
+#cam-nhan .owl-nav .owl-next{ position:absolute; right:0%;}
+
+#cam-nhan .owl-nav .owl-prev{ position:absolute; left:0%;}
+
+#cam-nhan .owl-nav [class*='owl-']:hover {
+
+      background:none;border: none;
+
+      color:#065401 ;
+
+      text-decoration: none; }
+
+#contact{
+	width: 100%;min-height: 800px;padding-top: 100px; background: #F9F5EB;
+}
+.chan{
+	border-bottom:1px solid #000000; padding-bottom:15px; margin-bottom:7px;
+}
+.f-25{
+	font-size:25px; font-weight:bold;
+}
+
+
+
+#btn-back-to-top {
+
+  position: fixed; bottom: 20px; right: 20px; display: none; background: #952323; color: #F2E8C6;
+}
+.text-den{
+	color: black; 
+}
+.text-vang{
+	color: #952323;
+}
+.bo-goc{
+	border-radius: 8px;
+}
+.text-do{
+	color:#952323;
+}
+.tieu-de{
+	color: black; font-size: 40px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #9108F8;
+  border-radius: 7px;display: flex;padding: 4px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+ width: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+background: none;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #B058F3;color: white;border-radius: 7px
+}
+/* Create an active/current tablink class */
+.tab button.active {
+   background-color: #6E12BC;color: white;border-radius: 7px
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.chan{
+	border-bottom: 1px solid #000000; padding-bottom: 15px; margin-bottom: 15px;
+}
+.f-25{
+	font-size: 25px; font-weight: bold;
+}
+.slide-bck-center {
+	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2 both;
+	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2 both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-9-27 18:39:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-bck-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(-400px);
+            transform: translateZ(-400px);
+  }
+}
+@keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(-400px);
+            transform: translateZ(-400px);
+  }
+}
